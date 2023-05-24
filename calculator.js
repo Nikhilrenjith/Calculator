@@ -21,6 +21,6 @@ function find() {
 }
 function toggleSign() {
   var input = document.getElementById("result").value;
-  var result = parseFloat(input) * -1;
+  var result = parseInt(input) * -1;
   document.getElementById("result").value = result;
 }
