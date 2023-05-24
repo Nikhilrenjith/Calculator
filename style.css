@@ -8,7 +8,7 @@ body {
 
 .calculator {
   position: relative;
-  top: 100px;
+  top: 0px;
   width: 375px;
   margin: 0 auto;
   padding: 20px;
@@ -16,7 +16,7 @@ body {
   text-align: center;
 }
 .head {
-  top: 100px;
+  top: 0px;
   text-align: center;
   box-sizing: border-box;
   position: relative;

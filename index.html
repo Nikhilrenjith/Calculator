@@ -15,10 +15,14 @@
     <div class="calculator">
       <input type="text" id="result" placeholder="0" />
       <div class="keypad">
+        <button class="clearResult" onclick="Clear()">C</button>
+        <button class="buttonDel" onclick="Del()">DEL</button>
+        <button class="button." onclick="addinput('.')">.</button>
+        <button class="div" onclick="addinput('/')">/</button>
         <button class="button7" onclick="addinput('7')">7</button>
         <button class="button8" onclick="addinput('8')">8</button>
         <button class="button9" onclick="addinput('9')">9</button>
-        <button class="add" onclick="addinput('+')">+</button>
+        <button class="mul" onclick="addinput('*')">*</button>
         <button class="button4" onclick="addinput('4')">4</button>
         <button class="button5" onclick="addinput('5')">5</button>
         <button class="button6" onclick="addinput('6')">6</button>
@@ -26,11 +30,11 @@
         <button class="button1" onclick="addinput('1')">1</button>
         <button class="button2" onclick="addinput('2')">2</button>
         <button class="button3" onclick="addinput('3')">3</button>
-        <button class="mul" onclick="addinput('*')">*</button>
-        <button class="clearResult" onclick="Clear()">C</button>
+        <button class="add" onclick="addinput('+')">+</button>
+        <button class="button00" onclick="addinput('00')">00</button>
         <button class="button0" onclick="addinput('0')">0</button>
+        <button class="button%" onclick="toggleSign()">+/-</button>
         <button class="result" onclick="find()">=</button>
-        <button class="div" onclick="addinput('/')">/</button>
       </div>
     </div>
     <footer>&copy; 2023 Xcal</footer>
