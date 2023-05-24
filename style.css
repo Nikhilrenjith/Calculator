@@ -1,18 +1,22 @@
 body {
-  background-image: linear-gradient(to right, #4ca1af, #c4e0e5);
+  background-image: linear-gradient(
+    95.2deg,
+    rgba(173, 252, 234, 1) 26.8%,
+    rgba(192, 229, 246, 1) 64%
+  );
 }
 
 .calculator {
   position: relative;
-  top: 200px;
-  width: 250px;
+  top: 100px;
+  width: 375px;
   margin: 0 auto;
   padding: 20px;
-  border: 1px solid #fffaff;
+  border: 2px solid black;
   text-align: center;
 }
 .head {
-  top: 200px;
+  top: 100px;
   text-align: center;
   box-sizing: border-box;
   position: relative;
@@ -22,22 +26,22 @@ body {
 }
 
 button {
-  width: 50px;
-  height: 50px;
+  width: 75px;
+  height: 75px;
   margin: 2px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 #result {
   width: 100%;
-  height: 40px;
+  height: 50px;
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .keypad button {
   background-color: #f1f1f1;
   color: black;
-  font-size: 16px;
+  font-size: 20px;
 }
 .keypad button:hover {
   background-color: rgb(152, 151, 151);
@@ -45,10 +49,10 @@ button {
 }
 footer {
   background-color: transparent;
-  color: #fff;
+  color: black;
   position: fixed;
   bottom: 0;
-  left: 0;
+  right: 0;
   width: 100%;
   text-align: center;
   padding: 10px;
@@ -56,4 +60,7 @@ footer {
 
 .calculator input {
   text-align: right;
+}
+h1 {
+  font-size: 50px;
 }
